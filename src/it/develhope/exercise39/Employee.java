@@ -6,9 +6,9 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Employee {
-    final private String name;
-    final private String surname;
-    final private int address;
+    private String name;
+    private String surname;
+    private int address;
 
     public Employee(String newEmployeeName,String newEmployeeSurname,int newEmployeeAddress){
         this.name=newEmployeeName;
